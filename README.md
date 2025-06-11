@@ -34,19 +34,19 @@ Sistem ini diambil dari [GitHub Repository](https://github.com/fakhrulnugroho/re
 ## Fitur Utama
 1. **Modul Master Mobil**
    
-   Di modul ini saya membuat fitur untuk melihat, menambah, mengubah dan menghapus master mobil.
+   Di modul terdapat fitur untuk melihat, menambah, mengubah dan menghapus master mobil.
    
 2. **Modul Master Pemesan**
    
-   Di modul ini saya membuat fitur untuk melihat, menambah, mengubah dan menghapus data pemesan.
+   Di modul terdapat fitur untuk melihat, menambah, mengubah dan menghapus data pemesan.
    
 3. **Modul Master Pesanan**
 
-   Di modul ini saya membuat fitur untuk melihat, menambah, mengubah dan menghapus data pesanan.
+   Di modul terdapatfitur untuk melihat, menambah, mengubah dan menghapus data pesanan.
    
 4. **Modul Manajemen Akun**
 
-   Di modul ini saya membuat fitur untuk melihat, menambah dan menghapus data akun atau pengguna.
+   Di modul terdapat fitur untuk melihat, menambah dan menghapus data akun atau pengguna.
 
 ## Instruksi Setup
 1. **Clone repository** ke server lokal:
