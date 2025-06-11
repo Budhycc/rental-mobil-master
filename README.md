@@ -31,10 +31,6 @@ Sistem ini diambil dari [GitHub Repository](https://github.com/fakhrulnugroho/re
 7. **`tbl_pesanan`**
    - **Fungsi**: Menyimpan data pesanan penyewaan mobil (harga, tanggal pinjam, tanggal kembali, ID pemesan, ID mobil, ID perjalanan, ID jenis bayar).
 
-## Akun Admin
-- **Username**: admin
-- **Password**: admin
-
 ## Fitur Utama
 1. **Modul Master Mobil**
    
