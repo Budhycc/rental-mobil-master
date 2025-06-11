@@ -56,7 +56,6 @@ Sistem ini diambil dari [GitHub Repository](https://github.com/fakhrulnugroho/re
 1. **Clone repository** ke server lokal:
    ```bash
    git clone https://github.com/fakhrulnugroho/rental-mobil.git
-### Instalasi & Konfigurasi
 2. Selanjutnya kalian bisa buka file `config.php` 
 3. Ubah isi dari konstanta `BASE_URL` dengan `http://localhost/namafolder/`
 4. Untuk `namafolder` silahkan kalian ganti sesuai nama folder dari aplikasi ini di komputer atau laptop kalian
