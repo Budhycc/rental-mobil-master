@@ -8,7 +8,7 @@ define('APP_NAME', 'Aplikasi Rental Mobil');
 
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
-define('DB_PASS', '090701');
+define('DB_PASS', '');
 define('DB_NAME', 'rental_mobil');
 
 ?>
