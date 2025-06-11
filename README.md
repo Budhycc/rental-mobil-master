@@ -10,11 +10,26 @@ Sistem ini diambil dari [GitHub Repository](https://github.com/fakhrulnugroho/re
 - MySQL digunakan sebagai database untuk menyimpan data terkait rental mobil.
 
 ### Struktur Database
-Berikut adalah tabel-tabel yang digunakan dalam database:
-1. **users** - Menyimpan data pengguna
-2. **mobil** - Menyimpan data mobil yang tersedia untuk disewa
-3. **transaksi** - Menyimpan data transaksi penyewaan mobil
-4. **pembayaran** - Menyimpan informasi pembayaran transaksi
+1. **`tbl_akun`**
+   - **Fungsi**: Menyimpan data akun pengguna sistem (admin, dsb).
+
+2. **`tbl_jenis_bayar`**
+   - **Fungsi**: Menyimpan jenis pembayaran (Cash, Kredit).
+
+3. **`tbl_merk`**
+   - **Fungsi**: Menyimpan data merk mobil (Toyota, Suzuki).
+
+4. **`tbl_mobil`**
+   - **Fungsi**: Menyimpan data mobil yang tersedia untuk disewa, termasuk merk, warna, nomor polisi, dan jumlah kursi.
+
+5. **`tbl_pemesan`**
+   - **Fungsi**: Menyimpan data pemesan mobil (nama, alamat, jenis kelamin, foto).
+
+6. **`tbl_perjalanan`**
+   - **Fungsi**: Menyimpan informasi perjalanan (asal, tujuan, jarak).
+
+7. **`tbl_pesanan`**
+   - **Fungsi**: Menyimpan data pesanan penyewaan mobil (harga, tanggal pinjam, tanggal kembali, ID pemesan, ID mobil, ID perjalanan, ID jenis bayar).
 
 ## Akun Admin
 - **Username**: admin
