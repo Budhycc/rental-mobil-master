@@ -36,12 +36,30 @@ Sistem ini diambil dari [GitHub Repository](https://github.com/fakhrulnugroho/re
 - **Password**: admin
 
 ## Fitur Utama
-1. **Login/Logout** untuk admin
-2. **Manajemen Mobil** (Tambah, Edit, Hapus mobil)
-3. **Manajemen Transaksi** (Melihat riwayat transaksi, status pembayaran)
-4. **Manajemen Pengguna** (Menambah, mengedit data pengguna)
+1. **Modul Master Mobil**
+   
+   Di modul ini saya membuat fitur untuk melihat, menambah, mengubah dan menghapus master mobil.
+   
+2. **Modul Master Pemesan**
+   
+   Di modul ini saya membuat fitur untuk melihat, menambah, mengubah dan menghapus data pemesan.
+   
+3. **Modul Master Pesanan**
+
+   Di modul ini saya membuat fitur untuk melihat, menambah, mengubah dan menghapus data pesanan.
+   
+4. **Modul Manajemen Akun**
+
+   Di modul ini saya membuat fitur untuk melihat, menambah dan menghapus data akun atau pengguna.
 
 ## Instruksi Setup
 1. **Clone repository** ke server lokal:
    ```bash
    git clone https://github.com/fakhrulnugroho/rental-mobil.git
+### Instalasi & Konfigurasi
+2. Selanjutnya kalian bisa buka file `config.php` 
+3. Ubah isi dari konstanta `BASE_URL` dengan `http://localhost/namafolder/`
+4. Untuk `namafolder` silahkan kalian ganti sesuai nama folder dari aplikasi ini di komputer atau laptop kalian
+5. Ubah juga konfigurasi database di file `config.php` 
+6. Untuk login kalian bisa register terlebih dahulu atau menggunakan username = `admin` dan password `admin`
+
